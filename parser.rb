@@ -5,10 +5,10 @@ File.open('example.pdf', 'rb') do |io|
   pages = []
 
   # Parsing PDF
-  reader.pages.each do |p|
+  reader.pages.each do |page|
     rows = []
     # Separating a whole text
-    t = p.text.split("\n")
+    t = page.text.split("\n")
 
     t.each do |s|
       # Formatting
