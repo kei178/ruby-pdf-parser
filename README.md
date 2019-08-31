@@ -10,7 +10,7 @@ gem install pdf-reader
 
 ## Run
 
-Target: `example.pdf`
+Target: [example.pdf](https://github.com/kei178/ruby-pdf-parser/blob/master/example.pdf)
 
 Command:
 
